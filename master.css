@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font-family: calibri;
 }
 
 input[type='button'] {
@@ -35,9 +36,10 @@ div.post0 #post-header h1, div#post #post-header h2, div#post #post-header h3{
   padding: 10px 0;
 }
 
-#post-comm {
+.post-comm {
   margin: 10px 0;
   line-height: 1.5rem;
+  display: none;
 }
 
 #post-comm p {
