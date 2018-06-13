@@ -1,0 +1,45 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+input[type='button'] {
+  padding: 5px 5px;
+}
+
+body {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  box-sizing: border-box;
+}
+
+main {
+  /* text-align: center; */
+  margin: 0 auto;
+}
+
+div#post {
+  width: 80%;
+  border: 2px solid;
+  border-bottom-width: 4px ;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+div.post0 #post-header h1, div#post #post-header h2, div#post #post-header h3{
+  padding: 5px 0;
+}
+
+#post-lcd {
+  padding: 10px 0;
+}
+
+#post-comm {
+  margin: 10px 0;
+  line-height: 1.5rem;
+}
+
+#post-comm p {
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
